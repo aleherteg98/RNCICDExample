@@ -7,13 +7,14 @@
  */
 
 import React from 'react';
-import {StyleSheet, Text, View, TextInput} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+
+import GreetingsCard from './components/GreetingsCard';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <TextInput value="Alexandra" />
-      <Text style={styles.text}>This is your app</Text>
+      <GreetingsCard />
     </View>
   );
 };
@@ -23,10 +24,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     justifyContent: 'center',
-  },
-  text: {
-    fontSize: 20,
-    color: 'pink',
   },
 });
 
