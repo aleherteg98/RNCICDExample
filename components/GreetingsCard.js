@@ -6,9 +6,9 @@ const GreetingsCard = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{`Hi! Welcome to your app ${name}!`}</Text>
+      <Text style={styles.text}>{`Hi! Welcome to your app ${name}! This is an example of CI/CD for React Native`}</Text>
       <TextInput
-        placeholder="Write your name..."
+        placeholder="Enter your name..."
         onChangeText={value => setName(value)}
       />
     </View>
