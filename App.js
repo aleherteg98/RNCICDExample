@@ -7,11 +7,12 @@
  */
 
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, TextInput} from 'react-native';
 
 const App = () => {
   return (
     <View style={styles.container}>
+      <TextInput value="Alexandra" />
       <Text style={styles.text}>This is your app</Text>
     </View>
   );
